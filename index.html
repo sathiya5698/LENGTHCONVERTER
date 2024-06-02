@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter">
+        <h1 class="title">Length Converter</h1>
+
+        <div class="inputField">
+            <input type="number" placeholder="input" id="input_box">
+            <span>=</span>
+            <input type="number" placeholder="result" id="result_box">
+        </div>
+
+        <div class="unit">
+            <select name="" id="inputCategory" sttyle="--color:#0f0f96">
+                <option value="kilometer">kilometer</option>
+                <option value="meter">metre</option>
+                <option value="centimeter">centimeter</option>
+            </select>
+
+            <select name="" id="resultCategory" style="--color:#096409">
+                <option value="kilometer">kilometer</option>
+                <option value="meter">metre</option>
+                <option value="centimeter">centimeter</option>
+                <option value="milimeter">millimeter</option>
+                <option value="micrometer">micrometer</option>
+                <option value="nanometer">nanaometer</option>
+                <option value="mile">mile</option>
+                <option value="yard">yard</option>
+                <option value="foot">foot</option>
+                <option value="inch">inch</option>
+            </select>
+        </div>
+
+        <div class="btn">
+            <button >All Clear</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
